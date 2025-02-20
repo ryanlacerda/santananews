@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Notícias da Escola</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/escola.png" alt="Logo da escola" class="rounded-circle" width="150" height="150">
+        <h1>News Santana</h1>
+        <p>Fique por dentro das últimas atualizações do nosso colegío.</p>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Principais Notícias</h2>
+        <div class="row">
+            <!-- Notícia 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/celular.png" class="card-img-top" alt="Imagem sobre o uso de celular">
+                    <div class="card-body">
+                        <h5 class="card-title">Uso de Celular Proibido em Sala</h5>
+                        <p class="card-text">A direção reforça a proibição do uso de celulares durante as aulas para melhorar a concentração e o desempenho dos alunos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Notícia 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/futsal.png" class="card-img-top" alt="Imagem sobre futsal na escola">
+                    <div class="card-body">
+                        <h5 class="card-title">Alunos Preferem Futsal ao Vôlei</h5>
+                        <p class="card-text">Uma pesquisa entre os estudantes mostrou que a maioria deseja trocar o voleibol pelo futsal nas aulas de Educação Física.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Notícia 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/educacao.png" class="card-img-top" alt="Imagem sobre aulas práticas">
+                    <div class="card-body">
+                        <h5 class="card-title">Mais Aulas Práticas de Educação Física</h5>
+                        <p class="card-text">A escola planeja incluir três aulas práticas de Educação Física por semana para incentivar a prática esportiva.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Uso de Celular Proibido em Sala</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        A proibição total do uso de celulares na escola pode ter impactos negativos tanto na aprendizagem quanto no bem-estar dos alunos. Embora o objetivo seja aumentar a atenção durante as aulas, essa regra ignora os benefícios que a tecnologia pode trazer para a educação e o cotidiano escolar.
+
+                        Por que essa proibição é ruim?
+                        Uso Educacional – Celulares são ferramentas poderosas para pesquisas rápidas, acesso a materiais didáticos e aprendizado interativo por meio de aplicativos educacionais. Proibi-los completamente pode limitar o acesso dos alunos a informações úteis.
+
+                        Segurança e Comunicação – Em casos de emergência, os alunos precisam ter um meio de contato com seus responsáveis. Além disso, muitos pais se sentem mais tranquilos ao saber que podem falar com seus filhos quando necessário.
+
+                        Preparação para o Futuro – No mundo atual, a tecnologia faz parte da vida profissional e acadêmica. Ensinar os alunos a usarem os celulares de forma responsável dentro da sala de aula pode ser mais produtivo do que simplesmente bani-los.
+
+                        Desmotivação – Quando os alunos sentem que suas opiniões e necessidades não são levadas em consideração, podem ficar desmotivados e menos engajados nas aulas. Uma abordagem equilibrada, que permita o uso do celular em momentos apropriados, pode ser mais eficaz do que uma proibição total.
+
+                        Em vez de impedir o uso do celular por completo, a escola poderia estabelecer regras mais flexíveis, como permitir o uso para fins educacionais ou em momentos específicos, ajudando os alunos a desenvolverem disciplina e responsabilidade no uso da tecnologia..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alunos Preferem Futsal ao Vôlei</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Uma enquete realizada entre os alunos revelou que a maioria prefere a prática do futsal em vez do voleibol. Diante desse resultado, a direção está considerando ajustes no planejamento esportivo para atender melhor os interesses dos estudantes.
+
+                        Por que essa mudança pode ser positiva?
+                        Maior Engajamento – Quando os alunos praticam um esporte que gostam, há mais motivação para participar das aulas de educação física, contribuindo para um ambiente mais dinâmico e participativo.
+
+                        Benefícios do Futsal – O futsal melhora a coordenação motora, o raciocínio rápido e a resistência física. Além disso, como é um esporte coletivo, estimula o trabalho em equipe e a socialização entre os alunos.
+
+                        Flexibilidade no Planejamento – A escola pode buscar um equilíbrio, mantendo o voleibol como opção e ampliando a prática do futsal, garantindo que todos os estudantes tenham acesso a diferentes modalidades esportivas.
+
+                        Essa possível mudança mostra que a escola está aberta a ouvir os alunos e adaptar suas atividades de acordo com os interesses da maioria, tornando o ambiente escolar mais participativo e agradável para todos..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mais Aulas Práticas de Educação Física</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Ter três aulas práticas de Educação Física por semana traz inúmeros benefícios para os estudantes, tanto para a saúde quanto para o desenvolvimento social e cognitivo. Aqui estão alguns motivos principais:
+
+                        1. Melhoria da Saúde Física
+                        Com três aulas práticas, os alunos conseguem praticar atividades físicas com frequência suficiente para combater o sedentarismo, reduzir o risco de obesidade e melhorar a resistência cardiovascular e muscular. O aumento do movimento também ajuda na postura e na coordenação motora.
+
+                        2. Impacto Positivo na Saúde Mental
+                        A prática regular de atividades físicas libera endorfinas, que ajudam a reduzir o estresse, a ansiedade e até sintomas de depressão. Três aulas por semana garantem um equilíbrio emocional maior e uma melhora na autoestima dos alunos.
+
+                        3. Melhoria no Desempenho Acadêmico
+                        Estudos mostram que a atividade física melhora a concentração, a memória e a capacidade cognitiva. Com mais aulas práticas, os alunos podem ter um desempenho melhor em outras disciplinas, pois o exercício ajuda na oxigenação do cérebro.
+
+                        4. Desenvolvimento Social e Trabalho em Equipe
+                        A interação durante esportes e jogos ensina habilidades importantes, como cooperação, disciplina, respeito às regras e ao próximo. Com três aulas práticas, os alunos têm mais oportunidades de desenvolver essas habilidades.
+
+                        5. Variedade de Modalidades e Inclusão
+                        Muitas escolas oferecem apenas uma aula prática por semana, limitando a diversidade de esportes e atividades. Com três aulas, há espaço para explorar diferentes modalidades, como atletismo, esportes coletivos, ginástica e atividades recreativas, atendendo melhor aos diferentes interesses e habilidades dos alunos.
+
+                        6. Combate ao Sedentarismo e Hábitos Saudáveis
+                        Com mais aulas práticas, os alunos criam o hábito de se movimentar e podem levar esse comportamento para fora da escola, praticando esportes e atividades físicas no dia a dia. Isso contribui para a formação de um estilo de vida mais saudável no futuro.
+
+                        A inclusão de três aulas práticas de Educação Física na grade curricular não é apenas uma questão esportiva, mas sim uma estratégia para promover bem-estar, melhor aprendizado e qualidade de vida para os alunos..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5 text-center">
+        <h2>Contato</h2>
+        <p>Para sugestões e dúvidas, mande um email para ryan.lacerda.lemes@escola.pr.gov.br.</p>
+        <p class="my-3">© 2025 Feito por Ryan Lacerda e Kayky Alves</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
